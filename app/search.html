@@ -1,0 +1,23 @@
+<h1>Search page</h1>
+
+<input 
+	type="text" 
+	ng-model="search_term" 
+	ng-change="retrieveResults()"
+	value="{{ search_term }}">
+
+<google-map 
+	center="map.center" 
+	zoom="map.zoom">
+</google-map>   
+
+<ul>
+	
+	<li ng-repeat="result in search_results">
+		<h1>
+			<a href="#/view/{{ result.title }}">{{ result.title }}</a>
+		</h1>
+		<h2>{{ result.address }}</h2>
+	</li>
+
+</ul>

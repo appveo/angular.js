@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="searchApp">
+	
+	<head>
+		<title>Ihr Fertigteilwerk - RECKLI</title>
+
+		<!-- angular app -->
+		<script src="../build/angular.js"></script>
+		<script src="../build/angular-route.js"></script>
+		<script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+		<script src='../bower_components/underscore/underscore.js'></script>
+		<script src="../bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
+		<!--// angular app -->
+
+		<!-- app stylesheets -->
+		<link href="css/app/google-maps.css" type="text/css" rel="stylesheet">
+		<!--// app stylesheets -->
+	</head>
+
+	<body>
+
+		<!-- main nav -->
+		<ul>
+			<li><a href="#/">Startpage</a></li>
+		</ul>
+		<!--// main nav -->
+		
+		<!-- main view -->
+		<ng-view></ng-view>
+		<!--// main view -->
+
+		<!-- app js -->
+		<script src="js/app.js"></script>
+		<script src="js/ctrl/landing-page.js"></script>
+		<script src="js/ctrl/search.js"></script>
+		<script src="js/ctrl/profile.js"></script>
+		<!--// app js -->
+
+	</body>
+
+</html>

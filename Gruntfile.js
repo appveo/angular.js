@@ -41,7 +41,7 @@ module.exports = function(grunt) {
       devserver: {
         options: {
           port: 8000,
-          hostname: '0.0.0.0',
+          hostname: 'ftw',
           base: '.',
           keepalive: true,
           middleware: function(connect, options){

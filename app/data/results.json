@@ -1,0 +1,50 @@
+[
+ {
+  "id": 0,
+  "nearFactor": 5,
+  "title": "Kaldunski Teilwerk",
+  "address": "Rosenstraße 1"
+ },
+ {
+  "id": 1,
+  "nearFactor": 1,
+  "title": "Oneworx GmbH",
+  "address": "Appveo straße 2"
+ },
+ {
+  "id": 2,
+  "nearFactor": 2,
+  "title": "Reckli GmbH",
+  "address": "Recklistraße 22"
+ },
+ {
+  "id": 3,
+  "nearFactor": 8,
+  "title": "Deine Mutter",
+  "address": "Hahahaa 39"
+ },
+ {
+  "id": 4,
+  "nearFactor": 3,
+  "title": "Why not",
+  "address": "Rosenstraße 1"
+ },
+ {
+  "id": 5,
+  "nearFactor": 4,
+  "title": "Junge du spast",
+  "address": "Muttereystr 32434"
+ },
+ {
+  "id": 6,
+  "nearFactor": 10,
+  "title": "Google Inc.",
+  "address": "Appveostr. 1"
+ },
+ {
+  "id": 7,
+  "nearFactor": 5,
+  "title": "Simon Blümel & Hannes Eberlein GbR",
+  "address": "Hurensohnweg 5"
+ }
+]
